@@ -1,0 +1,106 @@
+
+
+
+        body{
+            /* background-color: aqua; */
+            background-color: rgba(250, 250, 250);
+            font-family: 'Nunito', sans-serif;
+            padding-top: 50px;
+        }
+        h1,h2.h3,h4,h5,h6{
+            font-family: 'Raleway', sans-serif;
+        }
+        a,p{
+            color: #4b5156;
+        }
+        .view{
+            color: rgb(255, 166, 0);
+        }
+        .icon{
+            width: 30px;
+            height: 20px;
+        }
+
+        /* Resize images */
+        .container img {
+            width: 100%;
+            height: auto;
+        }
+
+        .container{
+            max-width: 550px;
+            margin: auto;
+            background-color: rgb(255, 255, 255);
+            -webkit-box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+            box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+        }
+        #container{
+            max-width: 700px;
+            margin: auto;
+            background-color: rgb(255, 255, 255);
+            -webkit-box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+            box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+        }
+        .header-bar{
+            display: flex;
+            justify-content: space-between;
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 5px 5px 0 0;
+            background: linear-gradient(90deg, #ffa600, #ffa600, #ffa600 100%);
+        }
+        #header-bar{
+            /* display: flex; */
+            /* justify-content: space-between; */
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 5px 5px 0 0;
+            background: linear-gradient(90deg, #ffa600, #ffa600, #ffa600 100%);
+        }
+        #header-bar a{
+            color: rgba(247, 247, 247, 1);
+            text-decoration: none;            
+        }
+        .header-bar a{
+            color: rgba(247, 247, 247, 1);
+            text-decoration: none;
+        }
+
+
+
+        input[type=text],input[type=number],input[type=password],textarea,select{
+            border: 1px solid rgb(255, 166, 0);
+            border-radius: 5px;
+            padding: 10px;
+            width: 90%;
+        }
+        input[type=text]:focus,input[type=number]:focus,input[type=password]:focus{
+            background-color: rgb(255, 166, 0);
+          }
+
+        #register input[type=text], #register input[type=password], #register textarea,select{
+            border: 1px solid rgb(255, 166, 0);
+            border-radius: 5px;
+            padding: 10px;
+            width: 80%;
+        }
+
+        label{
+            padding-top: 10px;
+            display: block;
+        }
+
+        .button{
+            border: 1px solid rgb(255, 166, 0);
+            background-color: rgb(250, 250, 250);
+            color: rgb(255, 166, 0);
+            padding: 10px;
+            font-size: 14px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .card-body{
+            padding: 20px;
+        }
